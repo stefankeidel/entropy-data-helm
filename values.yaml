@@ -3,7 +3,7 @@ replicaCount: 3
 image:
   pullPolicy: IfNotPresent
   name: entropydata/entropy-data-ce # use entropydata/entropy-data for enterprise version
-  tag: 1.7.4 # check latest version
+  tag: 1.9.8 # check latest version
 
 service:
   type: ClusterIP  # Can be ClusterIP, LoadBalancer, or NodePort
