@@ -13,6 +13,7 @@ spec:
       labels:
         app: entropy-data
     spec:
+      automountServiceAccountToken: {{ .Values.automountServiceAccountToken }}
       containers:
         - name: entropy-data
           image: "{{ .Values.image.name }}:{{ .Values.image.tag }}"

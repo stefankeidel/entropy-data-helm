@@ -1,5 +1,7 @@
 replicaCount: 3
 
+automountServiceAccountToken: false
+
 image:
   pullPolicy: IfNotPresent
   name: entropydata/entropy-data-ce # use entropydata/entropy-data for enterprise version
